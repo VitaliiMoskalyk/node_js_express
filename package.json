@@ -1,0 +1,28 @@
+{
+  "name": "node_js_express",
+  "version": "1.0.0",
+  "description": "training express npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiMoskalyk/node_js_express.git"
+  },
+  "author": "Vitalii Moskalik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiMoskalyk/node_js_express/issues"
+  },
+  "homepage": "https://github.com/VitaliiMoskalyk/node_js_express#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
